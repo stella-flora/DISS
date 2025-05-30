@@ -1,7 +1,0 @@
-python -m venv diss
-.\diss\Scripts\activate
-pip install jupyter
-ipython kernel install --name diss-kernel --user
-pip install pandas numpy matplotlib seaborn plotly wordcloud scikit-learn statsmodels
-pip install apify-client
-.\diss\Scripts\deactivate
